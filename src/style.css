@@ -1,0 +1,147 @@
+body {
+  background-color: #000000;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  color: #2b3e51;
+}
+
+.main-body {
+  padding: 10px 10px 10px 10px;
+}
+
+.app-body-backround {
+  background-color: #fff;
+  width: 40%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 0 0 0 0;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.main-header {
+  background-color: #f5f5f5;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.main-header > h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.65em;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2b283a;
+}
+.main-header > h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.65em;
+  line-height: 10px;
+  text-align: center;
+  color: #2b283a;
+}
+
+.mode-switcher {
+  margin: 0px -320px -200px 30px;
+}
+
+.main-content-sec {
+  padding: 30px 30px 30px 30px;
+}
+
+.btn-pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn-pricing > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+  background: #ffffff;
+  border: 1px solid #d5d4d8;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: auto 10px;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #4a4e74;
+}
+
+.task-total-sec {
+  padding-top: 30px;
+  display: flex;
+  font-weight: 700;
+  font-size: 0.3em;
+  line-height: 20px;
+  color: #918e9b;
+}
+
+.task {
+  margin-right: auto;
+}
+
+.tasks-done {
+  display: flex;
+  justify-content: center;
+}
+
+.tasks-done > p {
+  font-size: 0.65em;
+  font-weight: 700;
+  color: #4a4e74;
+}
+
+.specific-task {
+  margin-right: auto;
+}
+
+.remarks {
+  display: flex;
+  font-size: 0.3em;
+  align-items: center;
+  color: #918e9b;
+}
+
+.remarks2 {
+  display: flex;
+  font-size: 0.5em;
+  align-items: center;
+}
+
+.remarks2 > h2 {
+  font-size: 30px;
+  line-height: 5px;
+}
+
+.note-remarks {
+  margin-right: auto;
+}
+
+.send-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  width: 100%;
+  height: 44px;
+  background: #3770ed;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  font-size: 0.65em;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+}
+
+.btn-icon {
+  color: #ffffff;
+  margin: auto 5px;
+  font-size: 1.25em;
+}
