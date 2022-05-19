@@ -30,7 +30,6 @@ export default function MainContent(){
                 <span style={{fontSize:8,color:'#918E9B', paddingLeft:10}}>Remove</span> </p>
                 <p> <span style={{color:'#918E9B',fontWeight:500}}>$</span>20 </p> 
             </div>            
-
             
             <hr/>
 
